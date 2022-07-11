@@ -124,7 +124,7 @@ while True:
     possible_goals = get_unvisited_nodes(w_graph)
     goal_line = input(f'Choose a point of origin\n{possible_goals}\n')
     if goal_line not in possible_goals:
-        print('Please choose a point of origin from the given list\n')
+        print('Please choose a goal from the given list\n')
     else:
         break
 
